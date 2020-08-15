@@ -29,7 +29,7 @@ module.exports = {
       resolve: 'gatsby-theme-carbon',
       options: {
         iconPath: './src/images/favicon.png',
-        mediumAccount: 'carbondesign',
+        // mediumAccount: 'carbondesign',
         repository: {
           baseUrl:
             'https://github.com/carbon-design-system/gatsby-theme-carbon',

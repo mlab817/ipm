@@ -16,6 +16,14 @@
       path: /account/create
     - title: Login
       path: /account/login
+    - title: Verify Email
+      path: /account/verify-email
+    - title: Changing Password
+      path: /account/changing-password
+    - title: Password Recovery
+      path: /account/password-recovery
+    - title: Logout
+      path: /account/logout
 - title: Guides
   pages:
     - title: Configuration
