@@ -4,12 +4,21 @@
 - title: Getting started
   pages:
     - path: /getting-started
+- title: Installation
+  pages:
+    - path: /installation
 - title: Demo
   pages:
     - path: /demo
 - title: Gallery
   pages:
     - path: /gallery
+- title: User Interface
+  pages:
+    - path: /user-interface
+- title: Dashboard
+  pages:
+    - path: /dashboard
 - title: Account
   pages:
     - title: Create Account
@@ -28,9 +37,15 @@
   pages: 
     - title: Projects
       path: /projects
-    - title: Data Requirements
-      path: /projects/data-requirements
-    - title: Review
+    - title: Add Project
+      path: /projects/add
+    - title: Update Project
+      path: /projects/update
+    - title: Endorse Projects
+      path: /projects/endorse
+    - title: Validate Project
+      path: /projects/validate
+    - title: Review Project
       path: /projects/review
 - title: Guides
   pages:
@@ -104,6 +119,9 @@
       path: '/admin/users'
     - title: Manage Operating Units
       path: '/admin/ous'
-- title: Contributions
+- title: Future Plans
   pages:
-    - path: /contributions
+    - path: /future-plans
+- title: Contributing
+  pages:
+    - path: /contributing
