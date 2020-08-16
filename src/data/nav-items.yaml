@@ -24,6 +24,14 @@
       path: /account/password-recovery
     - title: Logout
       path: /account/logout
+- title: Projects
+  pages: 
+    - title: Projects
+      path: /projects
+    - title: Data Requirements
+      path: /projects/data-requirements
+    - title: Review
+      path: /projects/review
 - title: Guides
   pages:
     - title: Configuration
