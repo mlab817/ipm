@@ -7,12 +7,6 @@
 - title: Installation
   pages:
     - path: /installation
-- title: Demo
-  pages:
-    - path: /demo
-- title: Gallery
-  pages:
-    - path: /gallery
 - title: User Interface
   pages:
     - path: /user-interface
@@ -31,22 +25,44 @@
       path: /account/changing-password
     - title: Password Recovery
       path: /account/password-recovery
+    - title: Profile
+      path: /account/profile
     - title: Logout
       path: /account/logout
 - title: Projects
   pages: 
-    - title: Projects
+    - title: Projects Directory
       path: /projects
+    - title: Submission Flow
+      path: /projects/submission-flow
     - title: Add Project
       path: /projects/add
+    - title: View Project
+      path: /projects/view
     - title: Update Project
       path: /projects/update
+    - title: Finalize Project
+      path: /projects/finalize
     - title: Endorse Projects
       path: /projects/endorse
     - title: Validate Project
       path: /projects/validate
     - title: Review Project
       path: /projects/review
+- title: Admin
+  pages:
+    - title: Login
+      path: '/admin/login'
+    - title: Manage Users
+      path: '/admin/users'
+    - title: Manage Operating Units
+      path: '/admin/ous'
+- title: Future Plans
+  pages:
+    - path: /future-plans
+- title: Contributing
+  pages:
+    - path: /contributing
 - title: Guides
   pages:
     - title: Configuration
@@ -111,17 +127,9 @@
       path: /components/Title
     - title: Video
       path: /components/Video
-- title: Admin
+- title: Demo
   pages:
-    - title: Login
-      path: '/admin/login'
-    - title: Manage Users
-      path: '/admin/users'
-    - title: Manage Operating Units
-      path: '/admin/ous'
-- title: Future Plans
+    - path: /demo
+- title: Gallery
   pages:
-    - path: /future-plans
-- title: Contributing
-  pages:
-    - path: /contributing
+    - path: /gallery
