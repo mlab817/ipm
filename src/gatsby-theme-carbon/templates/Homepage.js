@@ -39,7 +39,7 @@ const customProps = {
       leftText={SecondLeftText}
       rightText={SecondRightText}
       color="white"
-      backgroundColor="#061f80"
+      backgroundColor="#04AA51"
     />
   ),
 };

@@ -4,12 +4,29 @@ description: Overview of the submission flow
 author: mlab817@gmail.com
 ---
 
+## Submission Flow & Processing Status
+
+The figure below describes the submission flow in the IPMS.
+
+1. The `Encoder` encodes a project in the system via [Add Project](/projects/add) module. This gets automatically tagged as `draft`.
+2. The `Encoder` then checks if the project information is complete and updates the project information via the [Update Project](/projects/update) module. The `Encoder` must update the project until all required information has been provided.
+3. Once the project information is complete, they will download and print the `Project Profile` and show it to the `Head of Agency`. It is recommended to do this in a single batch or batches. The `Head of Agency` reviews the project profile and does the following:
+	1. If the project profile is okay, he/she will sign the Project Profile.
+	1. If the project profile is not okay, he/she will return it to the `Encoder` for further revision in the System. The `Encoder` will then re-print it.
+4. Once the project profile has been signed, the `Encoder` will scan the signed copy and proceed with the [Finalization](/projects/finalize). Click `Finalize Project`. Afterwards, click `Upload Signed Copy`.
+5. All finalized projects are due for endorsement. Only endorsed projects are deemed submitted. The `Encoder` can do this via the [Endorse Project](/projects/endorse) module. Click on the link for instructions on how to do this.
+6. Once projects are endorsed, the `Encoder` may wait for feedback on the review of the project.
+7. Endorsed projects are validated by the assigned `Reviewer` (IPD staff). This is with respect to the consistency and completeness of data and inclusion in the endorsement letter.
+	1. If found consistent and complete, the `Reviewer` marks the project `validated` and proceed to review.
+	1. If there are problems with the project, it is `returned` to the encoder for compliance.
+8. 
+
 ![Submission Flow](/images/submission_flow.png)
 
-As projects are processed in the system, their status gets updated. This page aims to explain the meaning of project `processing status`.
+As projects are processed in the system, their status gets updated. This page aims to explain the meaning of project `processing status` vis-a-vis `submission flow`.
 
-|  # | Processing Status | Explanation |
-|----|:-----------------:|-------------|
+|  # | Processing Status |                                                                   Explanation                                                          |
+|----|:-----------------:|----------------------------------------------------------------------------------------------------------------------------------------|
 |  1 |Draft              |Draft status is the lowest processing status. This is assigned to newly created projects and will stay so until it is finalized. At this stage, the encoder can `still` update the project.|
 |  2 |Finalized          |Projects are `finalized` by finalizing it in the update project page. To finalize a project, the user must have  completed the required information. Finalized projects can no longer be edited.|
 |  3 |Endorsed           |Once projects are finalized, they can be endorsed by the head of the operating unit to the IPD for review. Only endorsed projects can be and will be reviewed by IPD.|
