@@ -51,10 +51,12 @@
       path: /projects/review
     - title: Encode Projects
       path: /projects/encode
+    - title: Data Requirements
+      path: /projects/data-requirements
 - title: Admin
   pages:
-    - title: Login
-      path: '/admin/login'
+    - title: Auth
+      path: '/admin/auth'
     - title: Manage Users
       path: '/admin/users'
     - title: Manage Operating Units
