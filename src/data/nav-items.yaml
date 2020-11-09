@@ -1,9 +1,6 @@
 - title: Introduction
   pages:
-    - path: /introduction
-- title: Getting started
-  pages:
-    - path: /getting-started
+    - path: /
 - title: Installation
   pages:
     - path: /installation
@@ -39,31 +36,12 @@
       path: /projects/add
     - title: View Project
       path: /projects/view
-    - title: Update Project
+    - title: Edit Project
       path: /projects/update
     - title: Finalize Project
       path: /projects/finalize
-    - title: Endorse Projects
-      path: /projects/endorse
-    - title: Validate Project
-      path: /projects/validate
-    - title: Review Project
-      path: /projects/review
-    - title: Encode Projects
-      path: /projects/encode
     - title: Data Requirements
       path: /projects/data-requirements
-- title: Admin
-  pages:
-    - title: Auth
-      path: '/admin/auth'
-    - title: Manage Users
-      path: '/admin/users'
-    - title: Manage Operating Units
-      path: '/admin/ous'
-- title: Future Plans
-  pages:
-    - path: /future-plans
 - title: Contributing Guide
   pages:
     - path: /contributing
